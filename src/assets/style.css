@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.home_wrap {
+    display: flex;
+    width: 1366px;
+    height: 1024px;
+    position: relative;
+    margin: 0 auto;
+    background: #eeeeee;
+}
+
+.home_wrap .announcementTitle {
+    position: absolute;
+    width: 397px;
+    height: 72px;
+    left: 167px;
+    top: 143px;
+
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 72px;
+    /* identical to box height, or 112% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.16em;
+
+    color: #ffffff;
+    z-index: 1;
+}
+
+.home_wrap .announcement {
+    position: absolute;
+    width: 1210px;
+    height: 681px;
+    left: 70px;
+    top: 44px;
+
+    background: #5cbfb5;
+    border-radius: 50px;
+}
+
+.home_wrap .ratingBarFrame {
+    position: absolute;
+    width: 966.49px;
+    height: 179.61px;
+    left: 73.82px;
+    top: 775.73px;
+
+    background: #ffffff;
+    border: 3px solid #5cbfb5;
+    box-sizing: border-box;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.home_wrap .ratingBarFrame .ratingBar {
+    position: absolute;
+    width: 266.99px;
+    height: 179.61px;
+    left: -3px;
+    bottom: -3px;
+
+    background: #f6dc66;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.home_wrap .ratingBarFrame .ratingBar p {
+    position: absolute;
+    width: 210px;
+    height: 229.26px;
+    bottom: -17px;
+    left: 46px;
+    font-family: "Noto Sans TC";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 72px;
+    /* or 112% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.64em;
+
+    color: #ffffff;
+    z-index: 2;
+}
+
+.home_wrap .ratingBar .vue-star-rating {
+    position: absolute;
+    width: 111.69px;
+    height: 108.9px;
+    left: 145px;
+    bottom: 21px;
+    z-index: 1;
+}
+
+.home_wrap .vue-star-rating-rating-text {
+    display: none;
+}
+
+.home_wrap .QRCode_picture {
+    position: absolute;
+    width: 192px;
+    height: 195px;
+    left: 1015px;
+    bottom: -7px;
+    z-index: 1;
+}
+
+.home_wrap .login {
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    left: 183px;
+    top: 302px;
+
+    background: #5CBFB5;
+    border-radius: 50%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.home_wrap .login p {
+    position: absolute;
+    width: 238px;
+    height: 72px;
+    left: 114px;
+    top: 174px;
+
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    /* identical to box height, or 100% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.64em;
+
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.home_wrap .employeeIDTitle {
+    position: absolute;
+    width: 115px;
+    height: 72px;
+    left: 664px;
+    top: 200px;
+
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.16em;
+
+    color: #000000;
+}
+
+.home_wrap .employeeID {
+    position: absolute;
+    width: 540px;
+    height: 172px;
+    left: 643px;
+    top: 294px;
+
+    background: #FFFFFF;
+    border: 3px solid #5CBFB5;
+    border-radius: 30px;
+
+    font-family: Noto Sans SC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 144%;
+    text-align: center;
+    letter-spacing: 0.16em;
+    cursor: pointer;
+}
+
+.home_wrap .employeeID:focus {
+    outline: none;
+}
+
+.home_wrap .passwordTitle {
+    position: absolute;
+    width: 115px;
+    height: 72px;
+    left: 664px;
+    top: 491px;
+
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.16em;
+
+    color: #000000;
+}
+
+.home_wrap .password {
+    position: absolute;
+    width: 540px;
+    height: 172px;
+    left: 643px;
+    top: 585px;
+
+    background: #FFFFFF;
+    border: 3px solid #5CBFB5;
+    border-radius: 30px;
+
+    font-family: Noto Sans SC;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 144%;
+    text-align: center;
+    letter-spacing: 0.16em;
+    cursor: pointer;
+}
+
+.home_wrap .password:focus {
+    outline: none;
+}
